@@ -33,6 +33,7 @@ void dequeue(){
         printf("Queue is underflow/empty");
     }
     else if(front == rear){
+        printf("%d elem is dequeue",c_queue[front]);
         front = rear = -1;
     }
     else{
